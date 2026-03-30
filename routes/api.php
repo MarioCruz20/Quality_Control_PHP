@@ -31,4 +31,5 @@ Route::post('/productionline/crear', [ProductionLineController::class, 'crear'])
 
 Route::get('/user', function (Request $request) {
     return $request->user();
+    
 })->middleware('auth:sanctum');
