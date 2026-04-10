@@ -1,3 +1,20 @@
+# Quality Control System
+
+Proyecto desarrollado con **Laravel y MySQL** para la gestión de líneas de producción y productos en un sistema de control de calidad.
+
+## Herramientas utilizadas
+
+- PHP
+- Laravel
+- MySQL
+- MySQL Workbench
+- Composer
+- Visual Studio Code
+
+El proyecto fue desarrollado utilizando **Visual Studio Code** como editor de código.
+
+---
+
 ## Configuración del Proyecto
 
 Sigue los siguientes pasos para configurar y ejecutar el proyecto en tu entorno local.
@@ -65,7 +82,7 @@ Hacer **Ctrl + clic izquierdo** sobre esa dirección para abir el proyecto o cop
 
 Para moverse entre vistas, en la direccion del navegador escribir:
 
-**http://198.0.0.1:8000/home**
+**http://127.0.0.1:8000/home**
 
 Luego hacer clic en "Lineas de producción", "Productos", etc en el encabezado.
 
