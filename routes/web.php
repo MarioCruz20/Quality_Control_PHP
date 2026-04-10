@@ -4,12 +4,19 @@ use App\Http\Controllers\Web\ProductController;
 use App\Http\Controllers\Web\ProductionLineController;
 use Illuminate\Support\Facades\Route;
 
+//Antes
+//Route::get('/home', function () {
+//    return view('home');
+//});
+
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
+//Cambio a primera vista 
 Route::get('/home', function () {
-    return view('home');
+    return view('welcome');
 });
 
 Route::get('/production_line', [ProductionLineController::class, 'index'])->name('production_line.index');
