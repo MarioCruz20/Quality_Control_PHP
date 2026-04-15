@@ -47,11 +47,15 @@ php -v
 ```
 
 5. Instalación de Composer:
--Descargar desde: https://getcomposer.org/download/
--Ejecutar el instalador (Composer-Setup.exe)
--Durante la instalación:
--Seleccionar la ruta de PHP (ejemplo: C:\php\php.exe)
--Verificar instalación:
+- Descargar desde: https://getcomposer.org/download/
+  
+- Ejecutar el instalador (Composer-Setup.exe)
+  
+- Durante la instalación:
+  
+- Seleccionar la ruta de PHP (ejemplo: C:\php\php.exe)
+  
+- Verificar instalación:
 ```
 composer -v
 ```
