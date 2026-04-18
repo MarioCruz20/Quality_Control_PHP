@@ -11,14 +11,14 @@ class QualityParametersController extends Controller
 {
     public function index()
     {
-        $list = QualityParameters::with('product')->get();
-        return view('quality_parameters.index', compact('list'));
+        $list = QualityParameters::all();
+        return view('qualityparameters.index', compact('list'));
     }
 
     public function create()
     {
         $products = Product::all();
-        return view('quality_parameters.create', compact('products'));
+        return view('qualityparameters.create', compact('products'));
     }
 
     public function store(Request $request)
@@ -52,7 +52,7 @@ class QualityParametersController extends Controller
         $qualityParameters = QualityParameters::find($id);
         $products = Product::all();
 
-        return view('quality_parameters.edit', compact('qualityParameters', 'products'));
+        return view('qualityparameters.edit', compact('qualityParameters', 'products'));
     }
 
     public function update(Request $request, $id)
