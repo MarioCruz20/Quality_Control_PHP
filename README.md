@@ -13,6 +13,23 @@ Sistema web de control de calidad desarrollado con Laravel que permite gestionar
 - Migraciones y manejo de base de datos con Eloquent ORM
 - Validación de datos en formularios
 
+## Capturas del sistema
+
+### Dashboard
+<img width="1228" height="898" alt="Screenshot 2026-04-22 082331" src="https://github.com/user-attachments/assets/89d76af6-5c45-4c01-8b41-d32cd8d47104" />
+
+### Lista de líneas de producción
+<img width="1230" height="899" alt="Screenshot 2026-04-22 082347" src="https://github.com/user-attachments/assets/a3ac94da-166b-4be3-b5f1-e7e889755ae2" />
+
+### Formulario para crear nueva línea de producción
+<img width="1222" height="895" alt="Screenshot 2026-04-22 082539" src="https://github.com/user-attachments/assets/23c9ad7f-7782-4476-a69e-b23ee18578bf" />
+
+### Lista de productos
+<img width="1214" height="896" alt="Screenshot 2026-04-22 082548" src="https://github.com/user-attachments/assets/5d4e2ede-a80a-445b-a557-146c3bda4a77" />
+
+### Lista de parámetros de calidad
+<img width="1203" height="893" alt="Screenshot 2026-04-22 082629" src="https://github.com/user-attachments/assets/527fcbed-eb47-4e7f-89f7-00286a20f1b8" />
+
 ## Herramientas utilizadas
 
 - PHP
